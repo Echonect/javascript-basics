@@ -55,4 +55,24 @@ person["name"] = "Mike"
 console.log(person.name);
 
 // Array
+let selectedColours = ["red", "blue", "green"];
 
+selectedColours[3] = "purple";
+
+selectedColours[4] = 5;
+
+console.log(selectedColours, selectedColours.length);
+
+// Performing a task
+function greet(name, age) {
+    console.log("Hello " + name + ". They are " + age);
+}
+
+greet("Joseph", 51);
+
+// Calculating a value
+function square(number) {
+    return number * number;
+}
+
+console.log(square(2))
